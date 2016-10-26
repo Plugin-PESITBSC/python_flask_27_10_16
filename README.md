@@ -41,4 +41,5 @@ Install flask as guided here -- http://flask.pocoo.org/docs/0.11/installation/
        2) mongod --version
        
 4)Install pymongo package
+
        python -m pip install pymongo
