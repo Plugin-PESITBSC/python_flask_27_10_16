@@ -36,7 +36,9 @@ Install flask as guided here -- http://flask.pocoo.org/docs/0.11/installation/
         4) sudo apt-get install -y mongodb-org   (This will install the latest version ) 
         5) sudo service mongo start   ( Start the mongodb service)
         
-* Final step : 
- Check your mongodb version 
- 1) mongo --version 
- 2) mongod --version 
+       Check your mongodb version 
+       1) mongo --version 
+       2) mongod --version
+       
+4)Install pymongo package
+       python -m pip install pymongo
