@@ -1,13 +1,15 @@
 # python_flask_27_10_16
 
 
-Installation Guildelines 
+Installation Guildelines : 
 
-1) Flask 
+1) Install python 2 or 3 according to your system
+
+2) Flask 
 
 Install flask as guided here -- http://flask.pocoo.org/docs/0.11/installation/
 
-2) Install and set up Mongo DB
+3) Install and set up Mongo DB
 
 * Windows 
  
