@@ -16,18 +16,19 @@ Install flask as guided here -- http://flask.pocoo.org/docs/0.11/installation/
  * Visit  https://www.mongodb.org/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.2.4-signed.msi/download and follow the instructions 
  
 * Ubuntu 
-    a.  Run the following commands : 
-    1)sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
-    2)
-     a)For Ubuntu 16.04:
-     Follow instructions as mentioned here:(xP Too much work)
-      https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/#install-mongodb-on-ubuntu-
+        Run the following commands : 
+        1)sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+        
+        2)
+          
+          a)For Ubuntu 16.04: Follow instructions as mentioned here:(xP Too much work)
+              https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/#install-mongodb-on-ubuntu-
       
-    	b)For Ubuntu 14.04:
-    		echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
-
-    		c)For Ubuntu 12.04:
-    		echo "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+    	     b)For Ubuntu 14.04:
+    		      echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+    
+          c)For Ubuntu 12.04:
+    	      	echo "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
     		
         3) sudo apt-get update 
         4) sudo apt-get install -y mongodb-org   (This will install the latest version ) 
