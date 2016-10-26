@@ -15,8 +15,10 @@ Install flask as guided here -- http://flask.pocoo.org/docs/0.11/installation/
  
  * Visit  https://www.mongodb.org/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.2.4-signed.msi/download and follow the instructions 
  
-* Ubuntu 
+* Ubuntu     
+         
         Run the following commands : 
+        
         1)sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
         
         2)
