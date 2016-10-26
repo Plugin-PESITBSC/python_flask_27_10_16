@@ -20,9 +20,10 @@ Install flask as guided here -- http://flask.pocoo.org/docs/0.11/installation/
     1)sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
     2)
      a)For Ubuntu 16.04:
-     echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
-
-    		b)For Ubuntu 14.04:
+     Follow instructions as mentioned here:
+      https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/#install-mongodb-on-ubuntu-
+      
+    	b)For Ubuntu 14.04:
     		echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 
     		c)For Ubuntu 12.04:
