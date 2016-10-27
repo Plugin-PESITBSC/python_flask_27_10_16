@@ -12,7 +12,7 @@ def hello_user(lang):
    elif lang == 'java':
     	return redirect(url_for('java_func'))
    else:
-   		return redirect(url_for('hello_admin'))
+   		return redirect(url_for('home'))
 
 @app.route('/python')
 def python_func():
